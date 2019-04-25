@@ -1,4 +1,4 @@
-require("dotenv").config();
+require("dotenv").config(); //reads .env and merges it into process.env
 
 const server = require("./api/server.js");
 
